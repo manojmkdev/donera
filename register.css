@@ -40,7 +40,7 @@ nav{
     cursor: pointer;
 }
 header{
-    background-image: url("/img/bg.png");
+    background-image: url("./img/bg.png");
     height: 100vh;
     background-position: center;
     background-size: contain;

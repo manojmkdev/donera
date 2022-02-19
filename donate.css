@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --p : #F43692;
+    --bg:#0D0F45;
+    --f1 :'Roboto', sans-serif;
+    --f2 :'Open Sans', sans-serif;
+    --f3:'Sail', cursive;
+    --font1: variex, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    background-color: var(--bg);
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:  #070B7E;
+    color: #fff;
+}
+
+#logo{
+    color: var(--p);
+    font-size: 1.8rem;
+    font-family: var(--font1);
+    cursor: pointer;
+    
+}
+
+.mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 30rem;
+    font-family: var(--f1);
+}
+
+.bt{
+    padding: 5px 50px;
+    margin-right: 6rem;
+    border: 3px solid var(--p);
+    font-size: 1.3rem;
+    font-family: var(--f2);
+    font-weight: 700;
+}
+
+.out{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+}
+
+
+#innerNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    padding-top: 70px;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 700;
+    font-family: var(--f2);
+}
+
+h1{
+    font-family:var(--f3);
+}
+
+.side h2{
+    padding: 25px;
+}
+
+#money{
+    background-color: #011634;
+    margin: 100px 20px;
+    padding: 30px;
+    font-family: var(--f2);
+    border: 2px solid #fff;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #fff;
+}
+
+
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 15px;
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 25px;
+}
+
+p{
+    margin: 25px;
+    font-size: 1.3rem;
+}
+
+.btn a{
+    color: #111;
+    padding: 5px 150px;
+    background-color: var(--p);
+}
+
+#food{
+    background-color: #011634;
+    margin: 100px 20px;
+    padding: 30px;
+    font-family: var(--f2);
+    border: 2px solid #fff;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #fff;
+}
+
+.side{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px;
+}
+
+.sideinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.centree{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.bot{
+    margin-top: 10rem;
+    padding: 10px 130px;
+    font-weight: 700;
+    background-color: var(--p);
+}
+
+.bot a{
+    color: #111;
+}
+
+#Clothes{
+    background-color: #011634;
+    margin: 100px 20px;
+    padding: 30px;
+    font-family: var(--f2);
+    border: 2px solid #fff;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #fff; 
+}
+#things{
+    padding: 30px;
+    background-color: #011634;
+    margin: 100px 20px;
+    color: #fff;
+    font-family: var(--f2);
+    border: 2px solid #fff;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b1b1b;
+    font-family: var(--f2);
+    padding:10px 10px;
+    align-items: center;
+    width: 40rem;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px #111;
+}
+label{
+    margin: 25px;
+    font-weight: 700;
+    float: left;
+}
+
+input{
+    margin: 20px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border-bottom: 3px solid #00DBCD;
+}
+
+textarea{
+    background-color: transparent;
+    border:3px solid #00DBCD;
+}
+
+input[type="submit"]{
+    background-color: #fff;
+    padding:10px 80px;
+    color: #1b1b1b;
+    border: none;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+form a{
+    background-color: #fff;
+    padding:10px 80px;
+    color: #1b1b1b;
+    border: none;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
